@@ -1,4 +1,4 @@
-# poste.io
+# bekce/poste.io
 Memory efficient (230-250 mb) complete multi-domain email server solution.
 
 [https://hub.docker.com/r/bekce/poste.io/](https://hub.docker.com/r/bekce/poste.io/)
