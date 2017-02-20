@@ -23,3 +23,9 @@ After running, go to the address of the server, and use letsencrypt to get new c
 
 *Security info:* This distribution comes with `clamd` disabled to save server memory, which can be vital for some people who absolutely want to virus scan their incoming emails. Normally, a really high portion of potentially dangerous emails including ones with executable attachments are automatically blocked by spamassassin and qpsmtpd configuration. 
 
+*Memory usage output of a live system:*
+```
+[ec2-user@server ~]$ docker stats --no-stream
+CONTAINER           CPU %               MEM USAGE / LIMIT       MEM %               NET I/O               BLOCK I/O           PIDS
+e0dc81d9e0b8        0.01%               200.1 MiB / 995.4 MiB   20.11%              304.4 kB / 35.17 kB   103 MB / 532.5 kB   0
+```
