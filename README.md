@@ -1,5 +1,9 @@
-# bekce/poste.io
-Memory efficient (230-250 mb) complete multi-domain email server solution.
+## Update
+
+This fork of [poste.io](http://poste.io) was from a legacy branch. Nowadays it is wiser to use their latest version directly with `-e "DISABLE_CLAMAV=TRUE"` to achieve similar low memory usage levels with greater features. See [Documentation](https://poste.io/doc/)
+
+## bekce/poste.io
+Memory efficient (230-250 mb) complete multi-domain email server solution. 
 
 [https://hub.docker.com/r/bekce/poste.io/](https://hub.docker.com/r/bekce/poste.io/)
 
